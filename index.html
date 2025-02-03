@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>नंदवंशी सेल्फ केयर टीम पंजीकरण फॉर्म</title>
+    <link rel="stylesheet" href="styles.css">
+       
+   
+</head>
+<body>
+    <div class="container">
+        <h2>नंदवंशी सेल्फ केयर टीम पंजीकरण फॉर्म</h2>
+        <form id="registrationForm">
+            <label>आधार संख्या/पैन नंबर</label>
+            <input type="text" id="aadhaarPan" placeholder="Enter your answer" pattern="[A-Za-z0-9]+" required>
+             
+            <label>नाम</label>
+            <input type="text" id="name" placeholder="Enter your answer" required>
+            
+            <label>पिता/पति का नाम</label>
+            <input type="text" id="fatherHusbandName" placeholder="Enter your answer" required>
+            
+            <label>जन्मतिथि</label>
+            <input type="date" id="dob" placeholder="Please input date (dd/MM/yyyy)" required>
+            
+            <label>लिंग</label>
+            <select id="gender" required>
+                <option value="पुरुष">पुरुष</option>
+                <option value="महिला">महिला</option>
+            </select>
+            
+            <label>पता</label>
+            <input type="text" id="address" placeholder="Enter your answer" required>
+            
+            <label>जनपद</label>
+            <select id="district" required>
+                <option value="">Select your district</option>
+                <option value="Agra">Agra</option>
+                <option value="Aligarh">Aligarh</option>
+                <option value="Allahabad">Allahabad</option>
+                <option value="Ambedkar Nagar">Ambedkar Nagar</option>
+                <option value="Amethi">Amethi</option>
+                <option value="Amroha">Amroha</option>
+                <option value="Auraiya">Auraiya</option>
+                <option value="Azamgarh">Azamgarh</option>
+                <option value="Baghpat">Baghpat</option>
+                <option value="Bahraich">Bahraich</option>
+                <option value="Ballia">Ballia</option>
+                <option value="Balrampur">Balrampur</option>
+                <option value="Banda">Banda</option>
+                <option value="Barabanki">Barabanki</option>
+                <option value="Bareilly">Bareilly</option>
+                <option value="Basti">Basti</option>
+                <option value="Bhadohi">Bhadohi</option>
+                <option value="Bijnor">Bijnor</option>
+                <option value="Budaun">Budaun</option>
+                <option value="Bulandshahr">Bulandshahr</option>
+                <option value="Chandauli">Chandauli</option>
+                <option value="Chitrakoot">Chitrakoot</option>
+                <option value="Deoria">Deoria</option>
+                <option value="Etah">Etah</option>
+                <option value="Etawah">Etawah</option>
+                <option value="Faizabad">Faizabad</option>
+                <option value="Farrukhabad">Farrukhabad</option>
+                <option value="Fatehpur">Fatehpur</option>
+                <option value="Firozabad">Firozabad</option>
+                <option value="Gautam Buddha Nagar">Gautam Buddha Nagar</option>
+                <option value="Ghaziabad">Ghaziabad</option>
+                <option value="Ghazipur">Ghazipur</option>
+                <option value="Gonda">Gonda</option>
+                <option value="Gorakhpur">Gorakhpur</option>
+                <option value="Hamirpur">Hamirpur</option>
+                <option value="Hapur">Hapur</option>
+                <option value="Hardoi">Hardoi</option>
+                <option value="Hathras">Hathras</option>
+                <option value="Jalaun">Jalaun</option>
+                <option value="Jaunpur">Jaunpur</option>
+                <option value="Jhansi">Jhansi</option>
+                <option value="Kannauj">Kannauj</option>
+                <option value="Kanpur Dehat">Kanpur Dehat</option>
+                <option value="Kanpur Nagar">Kanpur Nagar</option>
+                <option value="Kasganj">Kasganj</option>
+                <option value="Kaushambi">Kaushambi</option>
+                <option value="Kushinagar">Kushinagar</option>
+                <option value="Lakhimpur Kheri">Lakhimpur Kheri</option>
+                <option value="Lalitpur">Lalitpur</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Maharajganj">Maharajganj</option>
+                <option value="Mahoba">Mahoba</option>
+                <option value="Mainpuri">Mainpuri</option>
+                <option value="Mathura">Mathura</option>
+                <option value="Mau">Mau</option>
+                <option value="Meerut">Meerut</option>
+                <option value="Mirzapur">Mirzapur</option>
+                <option value="Moradabad">Moradabad</option>
+                <option value="Muzaffarnagar">Muzaffarnagar</option>
+                <option value="Pilibhit">Pilibhit</option>
+                <option value="Pratapgarh">Pratapgarh</option>
+                <option value="Raebareli">Raebareli</option>
+                <option value="Rampur">Rampur</option>
+                <option value="Saharanpur">Saharanpur</option>
+                <option value="Sambhal">Sambhal</option>
+                <option value="Sant Kabir Nagar">Sant Kabir Nagar</option>
+                <option value="Shahjahanpur">Shahjahanpur</option>
+                <option value="Shamli">Shamli</option>
+                <option value="Shravasti">Shravasti</option>
+                <option value="Siddharthnagar">Siddharthnagar</option>
+                <option value="Sitapur">Sitapur</option>
+                <option value="Sonbhadra">Sonbhadra</option>
+                <option value="Sultanpur">Sultanpur</option>
+                <option value="Unnao">Unnao</option>
+                <option value="Varanasi">Varanasi</option>
+            </select>
+            
+            <label>मोबाइल नंबर (स्वयं का)</label>
+            <input type="number" id="personalMobile" placeholder="The value must be a number" required>
+            
+            <label>मोबाइल नंबर (घर का)</label>
+            <input type="number" id="homeMobile" placeholder="The value must be a number" required>
+            
+            <label>ईमेल</label>
+            <input type="email" id="email" placeholder="Please enter an email" required>
+            
+            <label>नॉमिनी का नाम</label>
+            <input type="text" id="nomineeName" placeholder="Enter your answer" required>
+            
+            <label>नॉमिनी से संबंध</label>
+            <select id="relation" required>
+                <option value="">Select your relation</option>
+                <option value="पुत्र">पुत्र</option>
+                <option value="पुत्री">पुत्री</option>
+                <option value="पति">पति</option>
+                <option value="पत्नी">पत्नी</option>
+                <option value="माता">माता</option>
+                <option value="पिता">पिता</option>
+                <option value="भाई">भाई</option>
+                <option value="बहन">बहन</option>
+                <option value="अन्य">अन्य</option>
+            </select>
+            
+            <label>परिवार मे कुल सदस्यों की संख्या</label>
+            <input type="number" id="familyMembers" placeholder="The value must be a number" required>
+            
+            <label>बीमारी का नाम (यदि कोई है)</label>
+            <input type="text" id="disease" placeholder="Enter your answer">
+            
+            <label>घोषणा पत्र :-  मैं घोषणा करता हूँ की मेरे द्वारा दी गई जानकारी पूर्णत: सत्य है। असत्य पाए जाने पर मेरी सदस्यता निरस्त की जा सकती है।</label>
+            <input type="checkbox" id="declaration" required> स्वीकृत
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('registrationForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const formData = {
+                aadhaarPan: document.getElementById('aadhaarPan').value,
+                name: document.getElementById('name').value,
+                fatherHusbandName: document.getElementById('fatherHusbandName').value,
+                dob: document.getElementById('dob').value,
+                gender: document.getElementById('gender').value,
+                address: document.getElementById('address').value,
+                district: document.getElementById('district').value,
+                personalMobile: document.getElementById('personalMobile').value,
+                homeMobile: document.getElementById('homeMobile').value,
+                email: document.getElementById('email').value,
+                nomineeName: document.getElementById('nomineeName').value,
+                nomineeRelation: document.getElementById('relation').value,
+                familyMembers: document.getElementById('familyMembers').value,
+                disease: document.getElementById('disease').value,
+                declaration: document.getElementById('declaration').checked
+            };
+
+            const response = await fetch('/.netlify/functions/registerUser', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData)
+            });
+
+            const result = await response.json();
+            alert(result.message);
+        });
+    </script>
+</body>
+</html>
